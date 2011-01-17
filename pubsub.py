@@ -56,5 +56,5 @@ class PubsubHandler(webapp.RequestHandler):
     Maybe, I should store the last couple of titles of posts.  Or hook it up
     to the Channel API etc.
     '''
-    
+    logging.info(self.request.BODY)
     
