@@ -1,0 +1,4 @@
+cron:
+- description: Fetch daily feed
+  url: /tasks/feed/fetch
+  schedule: every 60 minutes

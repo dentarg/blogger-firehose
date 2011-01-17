@@ -1,5 +1,7 @@
 A sample firehose for Blogger.
 
+This is actually a FAUX Firehose, and will probably miss a lot of feeds.
+
 1, Monitor the changes.xml file,
 b, Subscribe to everything in that file.
 iii, Profit - or not, you will get a lot of data sent your way.
