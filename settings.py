@@ -1,7 +1,7 @@
 
 # These are the settings that tend to differ between installations of Streamer. Tweak these for your installation.
 
-APP_NAME = "buzz-firehose"
+APP_NAME = "blogger-firehose"
 
 # Should we ignore the hubs defined in the feeds we're consuming
 ALWAYS_USE_DEFAULT_HUB = False

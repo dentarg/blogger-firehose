@@ -49,8 +49,12 @@ class PubsubHandler(webapp.RequestHandler):
     '''
     New content has been pushed to the hub.  
     
-    There isn't actually anything I plan to do with it at the moment.'
+    There isn't actually anything I plan to do with it at the moment.  Normally 
+    there would be a whole bunch of code that you would create to do something
+    awesome with this wealth of data.
     
+    Maybe, I should store the last couple of titles of posts.  Or hook it up
+    to the Channel API etc.
     '''
     
     
