@@ -32,12 +32,13 @@ from xml import sax
 class ChangesHandler(sax.ContentHandler):
   def startElement(self, name, attrs):
     
-    if "url" in attrs:    
+    if name == "weblog":  
+      blogUrl = attrs.get("url")
       taskqueue.add(
         queue_name = "subscribe",
         url = '/tasks/feed/subscribe',
         params = { 
-          "url" : attrs["url"]
+          "url" : blogUrl
         })
 
 class PubsubSubscribeHandler(webapp.RequestHandler):
